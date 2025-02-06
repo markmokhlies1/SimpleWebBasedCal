@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "SimpleCalcorator.Controllers.CalController",
+    "Method": "Calculate",
+    "RelativePath": "api/Cal/Calculate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "expression01",
+        "Type": "SimpleCalcorator.Model.Expression01",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
